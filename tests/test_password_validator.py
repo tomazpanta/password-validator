@@ -2,7 +2,7 @@ import pytest
 import sys
 import os
 
-# Adiciona a pasta 'src' ao caminho de busca do Python APENAS para este teste
+
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 
 from password_validator import validate_password, InvalidPasswordException

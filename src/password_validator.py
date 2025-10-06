@@ -44,9 +44,9 @@ def validate_password(password: str) -> bool:
 
     return True
 
-# O pragma: no cover diz ao pytest-cov para ignorar o bloco abaixo
-if __name__ == '__main__': # pragma: no cover
-    # Exemplo de uso (não será coberto pelos testes, apenas para demonstração)
+
+if __name__ == '__main__':
+    
     try:
         if validate_password("Senha123Forte"):
             print("Senha validada com sucesso!")
