@@ -63,7 +63,7 @@ pytest --cov=src --cov-report term-missing --cov-report html
 
 Abaixo está o relatório de cobertura de testes, provando que todas as regras de negócio críticas do módulo `password_validator.py` foram validadas, atingindo **100% de cobertura**.
 
-**[COLE SEU SCREENSHOT DE 100% AQUI]**
+**[![alt text](image.png)]**
 
 ```
 ```
